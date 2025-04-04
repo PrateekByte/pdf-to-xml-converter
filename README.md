@@ -70,7 +70,7 @@ pdf-to-xml-converter
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/pdf-to-xml-converter.git
+git clone https://github.com/PrateekByte/pdf-to-xml-converter.git
 cd pdf-to-xml-converter
 ```
 
@@ -218,13 +218,3 @@ cd pdf-to-xml-converter
 
 10. **Cloud Integration**:
     - Integrate with cloud storage services (e.g., AWS S3, Google Drive) for file uploads and downloads.
-
----
-
-## **Contributing**
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
----
-
-Let me know if you need further assistance! 🚀
