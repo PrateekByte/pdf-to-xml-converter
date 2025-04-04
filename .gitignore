@@ -1,0 +1,15 @@
+# Ignore all node_modules
+node_modules/
+
+# Ignore environment variables
+.env
+backend/.env
+frontend/.env
+
+# Ignore frontend build files
+frontend/build/
+
+# Ignore logs and system files
+*.log
+.DS_Store
+.vscode/

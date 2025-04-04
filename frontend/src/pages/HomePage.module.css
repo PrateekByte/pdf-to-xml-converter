@@ -1,0 +1,134 @@
+/* Container for the entire page */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.navButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navButton:hover {
+  background-color: #cc0000;
+}
+
+/* Main content styles */
+.mainContent {
+  margin-top: 30px;
+}
+
+/* Welcome message for logged-out users */
+.welcomeMessage {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Auth options for logged-out users */
+.authOptions {
+  text-align: center;
+}
+
+.authButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.authButton {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.authButton:hover {
+  background-color: #0056b3;
+}
+
+/* Upload section for logged-in users */
+.uploadSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .authButtons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .welcomeMessage {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
